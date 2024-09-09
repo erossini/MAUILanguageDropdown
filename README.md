@@ -1,6 +1,15 @@
 # Language Dropdown from MAUI
 Component for MAUI to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
 
+### iOS Screenshot
+
+![LanguageDropdown_iOS](https://github.com/user-attachments/assets/abcdc47a-0e65-4ea0-9b63-a10c4c1dc1b3)
+
+### Windows
+
+![LanguageDropdown_Windows](https://github.com/user-attachments/assets/79ff833b-3c31-4eba-b8d1-6989fb6640c5)
+
+
 ---
     
 ## PureSourceCode.com
