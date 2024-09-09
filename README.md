@@ -5,6 +5,10 @@ Component for MAUI to display a dropdown with languages. Include all the flags i
 
 ![LanguageDropdown_iOS](https://github.com/user-attachments/assets/abcdc47a-0e65-4ea0-9b63-a10c4c1dc1b3)
 
+### Android
+
+![LanguageDropdown_Android](https://github.com/user-attachments/assets/c923ba2c-7405-491d-a78a-a23e6768d713)
+
 ### Windows
 
 ![LanguageDropdown_Windows](https://github.com/user-attachments/assets/79ff833b-3c31-4eba-b8d1-6989fb6640c5)
