@@ -1,5 +1,5 @@
 # Language Dropdown from MAUI
-Component for MAUI to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
+A component for MAUI is to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
 
 ## Languages and flags
 
