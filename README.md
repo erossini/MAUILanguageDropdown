@@ -51,7 +51,7 @@ Now, you can use the component in the application.
 
 In your `MAUI` `ContentView` or `ContentPage`. the reference to the component must be added like in the following example:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
 	x:Class="LanguageDropdownDemo.MainPage"
