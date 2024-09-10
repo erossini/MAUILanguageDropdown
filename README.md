@@ -68,6 +68,7 @@ In your `MAUI` `ContentView` or `ContentPage`. the reference to the component mu
 			IsDisplayPickerControl="{Binding IsDisplayPickerControl}"
 			Placeholder="This is a test"
 			SelectedItem="{Binding LanguageItem}" />
+
                 <Image
                     HeightRequest="50"
                     Source="f_gb.png"
