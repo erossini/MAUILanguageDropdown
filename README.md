@@ -1,5 +1,6 @@
 # Language Dropdown from MAUI
-A component for MAUI is to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
+A component for [MAUI](https://puresourcecode.com/tag/maui/) is to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
+The Language Dropdown for MAUI is available on [NuGet](https://www.nuget.org/packages/PSC.Maui.Components.LanguageDropdown/) as a package to use in your non-commercial applications. If you would like to use it for commercial use, please send me a message.
 
 ## Languages and flags
 
@@ -888,6 +889,12 @@ A component for MAUI is to display a dropdown with languages. Include all the fl
 
 ![LanguageDropdown_Windows](https://github.com/user-attachments/assets/79ff833b-3c31-4eba-b8d1-6989fb6640c5)
 
+## More links
+* [CSharpCountryData: A simple cross platform offline .NET library for getting country data](https://github.com/erossini/CSharpCountryData)
+* [CSharp Country Data](https://puresourcecode.com/dotnet/net8/country-data-library-for-net8/)
+* [Demo Source Code](https://github.com/erossini/MAUILanguageDropdown)  
+* [NuGet package](https://www.nuget.org/packages/PSC.Maui.Components.LanguageDropdown/)
+* [Language Dropdown for MAUI on PureSourceCode]()
 
 ---
     
