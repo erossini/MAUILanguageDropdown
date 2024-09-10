@@ -54,21 +54,32 @@ In your `MAUI` `ContentView` or `ContentPage`. the reference to the component mu
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-	x:Class="LanguageDropdownDemo.MainPage"
-	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	xmlns:components="clr-namespace:PSC.Maui.Components.LanguageDropdown;assembly=PSC.Maui.Components.LanguageDropdown">
+    x:Class="LanguageDropdownDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:components="clr-namespace:PSC.Maui.Components.LanguageDropdown;assembly=PSC.Maui.Components.LanguageDropdown"
+    xmlns:local="clr-namespace:LanguageDropdownDemo.ViewModels">
 
-	<ScrollView>
-		<VerticalStackLayout Padding="30,0" Spacing="25">
-			<components:LanguageDropdown />
-			<Image
-				HeightRequest="50"
-				Source="f_gb.png"
-				WidthRequest="50" />
-		</VerticalStackLayout>
-	</ScrollView>
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+		<components:LanguageDropdown
+			x:Name="ldd"
+                        BorderColor="Gray"
+			IsDisplayPickerControl="{Binding IsDisplayPickerControl}"
+			Placeholder="This is a test"
+			SelectedItem="{Binding LanguageItem}" />
+                <Image
+                    HeightRequest="50"
+                    Source="f_gb.png"
+                    WidthRequest="50" />
 
+                 <Image
+                     HeightRequest="50"
+                     Source="{Binding LanguageItem.Flag}"
+                     WidthRequest="50" />
+                 <Label HorizontalTextAlignment="Center" Text="{Binding LanguageItem.LanguageName}" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
 ```
 
