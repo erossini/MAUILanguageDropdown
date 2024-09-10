@@ -2,6 +2,8 @@
 A component for [MAUI](https://puresourcecode.com/tag/maui/) is to display a dropdown with languages. Include all the flags in SVG format and functions to get all language data.
 The Language Dropdown for MAUI is available on [NuGet](https://www.nuget.org/packages/PSC.Maui.Components.LanguageDropdown/) as a package to use in your non-commercial applications. If you would like to use it for commercial use, please send me a message.
 
+For more information about this component, please see my post on [PureSourceCode](https://puresourcecode.com/dotnet/maui/language-dropdown-for-maui/)
+
 ## Languages and flags
 
 | Culture Name                                | Abbreviation | Flag     | Parent   |
@@ -894,7 +896,7 @@ The Language Dropdown for MAUI is available on [NuGet](https://www.nuget.org/pac
 * [CSharp Country Data](https://puresourcecode.com/dotnet/net8/country-data-library-for-net8/)
 * [Demo Source Code](https://github.com/erossini/MAUILanguageDropdown)  
 * [NuGet package](https://www.nuget.org/packages/PSC.Maui.Components.LanguageDropdown/)
-* [Language Dropdown for MAUI on PureSourceCode]()
+* [Language Dropdown for MAUI on PureSourceCode](https://puresourcecode.com/dotnet/maui/language-dropdown-for-maui/)
 
 ---
     
