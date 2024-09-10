@@ -4,6 +4,74 @@ The Language Dropdown for MAUI is available on [NuGet](https://www.nuget.org/pac
 
 For more information about this component, please see my post on [PureSourceCode](https://puresourcecode.com/dotnet/maui/language-dropdown-for-maui/).
 
+## Usage
+
+First, the package has to be added to your project. You can install it with this command from the dotnet CLI
+
+```
+dotnet add package PSC.Maui.Components.LanguageDropdown --version 8.0.0
+```
+
+or with the NuGet command
+
+```
+Install-Package PSC.Maui.Components.LanguageDropdown -Version 8.0.0
+```
+
+Then, the component has to be registered in your application. The component requires the `CommunityToolkit.Maui` and must be added in the `MauiProgram.cs` after that.
+
+```csharp
+public static class MauiProgram
+{
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp<App>()
+            .UseMauiCommunityToolkit()
+            .UseLanguageDropdown()
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+            });
+
+#if DEBUG
+    	builder.Logging.AddDebug();
+#endif
+
+        return builder.Build();
+    }
+}
+```
+
+Now, you can use the component in the application.
+
+### How to add the component
+
+In your `MAUI` `ContentView` or `ContentPage`. the reference to the component must be added like in the following example:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="LanguageDropdownDemo.MainPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:components="clr-namespace:PSC.Maui.Components.LanguageDropdown;assembly=PSC.Maui.Components.LanguageDropdown">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="30,0" Spacing="25">
+			<components:LanguageDropdown />
+			<Image
+				HeightRequest="50"
+				Source="f_gb.png"
+				WidthRequest="50" />
+		</VerticalStackLayout>
+	</ScrollView>
+
+</ContentPage>
+```
+
 ## Languages and flags
 
 | Culture Name                                | Abbreviation | Flag     | Parent   |
