@@ -84,6 +84,19 @@ In your `MAUI` `ContentView` or `ContentPage`. the reference to the component mu
 </ContentPage>
 ```
 
+The code above shows the following screenshot
+
+![image](https://github.com/user-attachments/assets/a98d6611-d40f-4f78-9647-931f0b130e85)
+
+## Properties
+
+| Name                   | Type          | Description                                                                  |
+|------------------------|---------------|------------------------------------------------------------------------------|
+| BorderColor            | Color         | Gets or sets the color or the border of the component                        |
+| IsDisplayPickerControl | bool          | Gets or sets if the list of languages is displayed                           |
+| Placeholder            | string        | Gets or sets the text to display as a placeholder until no selection is made |
+| SelectedItem           | LanguageModel | Gets or sets the selected value                                              |
+
 ## Languages and flags
 
 | Culture Name                                | Abbreviation | Flag     | Parent   |
