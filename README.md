@@ -18,7 +18,7 @@ or with the NuGet command
 Install-Package PSC.Maui.Components.LanguageDropdown -Version 8.0.0
 ```
 
-Then, the component has to be registered in your application. The component requires the `CommunityToolkit.Maui` and must be added in the `MauiProgram.cs` after that.
+Then, the component has to be registered in your application. The component requires the `CommunityToolkit.Maui` and must be added to the `MauiProgram.cs` afterwards.
 
 ```csharp
 public static class MauiProgram
